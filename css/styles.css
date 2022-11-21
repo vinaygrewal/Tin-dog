@@ -1,0 +1,224 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 3% 7%;
+  margin: 0 3%;
+}
+
+
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+/* section */
+ .color-section{
+   background-color: #ff4c68;
+
+   color: white;
+ }
+
+ .white-section{
+   background-color: white;
+ }
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-thin";
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-section*/
+
+.title-img {
+  transform: rotate(25deg);
+}
+.title-txt{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+/* features */
+#features {
+  padding: 20% 15% 0;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  bottom: 350px;
+}
+.features-txt{
+
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.check-box {
+  margin-bottom: 20px;
+  font-size: 5rem;
+  color: #ff4c68;
+}
+
+.check-box:hover {
+  color: #ef8172;
+}
+
+.heart {
+  margin-bottom: 20px;
+  font-size: 5rem;
+  color: #ff4c68;
+}
+
+.heart:hover {
+  color: #ef8172;
+}
+
+.bulls-eye {
+  margin-bottom: 20px;
+  font-size: 5rem;
+  color: #ff4c68;
+}
+
+.bulls-eye:hover {
+  color: #ef8172;
+}
+
+/* testimonials SECTION */
+#testimonials {
+  text-align: center;
+
+}
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 2.5rem;
+
+  font-weight: 900;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 5%;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+/* press section */
+#press {
+
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 14%;
+  margin: 2%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-title {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 900;
+    line-height: 1.5;
+}
+.card-text{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.pricing-card {
+  padding: 3% 3%;
+}
+
+/* footer section */
+#cta {
+  padding: 7% 15%;
+
+    text-align: center;
+}
+
+.cta-text {
+
+  font-weight: bold;
+  padding-bottom: 50px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.btn {
+  margin: 10px;
+  border-radius: 7px;
+  padding:40px auto 60px;
+}
+
+
+
+
+/* footer section */
+
+#footer {
+
+  padding:7% 15%;
+
+    text-align: center;
+
+}
+
+
+
+span {
+  margin: 20px 15px  ;
+}
+
+.Copyright {
+  font-size: 1.5rem;
+
+}
+
+
+
+@media (max-width:1030px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #features {
+    position: static;
+  }
+}
